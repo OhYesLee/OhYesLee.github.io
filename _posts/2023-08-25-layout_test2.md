@@ -3,6 +3,7 @@ layout: single
 title:  "Layout test: home"
 categories: [blog, jekyll]
 tag: [blog, jekyll, github]
+author_profile: false
 ---
 
 # 레이아웃 테스트입니다.
