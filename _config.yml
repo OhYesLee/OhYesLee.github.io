@@ -122,6 +122,9 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/santa_leeeeeeesunguuuuuuuk"
+    - label: "YouTube"
+      icon: "fa-brands fa-youtube"
+      url: "https://instagram.com/santa_leeeeeeesunguuuuuuuk"
 
 # Site Footer
 footer:
@@ -131,7 +134,7 @@ footer:
       url: "https://github.com/OhYesLee"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/santa_leeeeeeesunguuuuuuuk"
+      url: "https://www.youtube.com/playlist?list=PLIMb_GuNnFwfQBZQwD-vCZENL5YLDZekr"
 
 
 # Reading Files
