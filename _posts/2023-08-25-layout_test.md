@@ -3,10 +3,6 @@ layout: single
 title:  "Layout test: collection"
 categories: [blog, jekyll]
 tag: [blog, jekyll, github]
-toc: true
-author_profile: false
-sidebar:
-    nav: "docs"
 ---
 
 # 레이아웃 테스트입니다.

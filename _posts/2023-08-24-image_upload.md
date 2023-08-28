@@ -3,10 +3,6 @@ layout: single
 title:  "이미지 업로드 방법"
 categories: coding
 tag: [Java, Python, blog, jekyll, java, python, image, github, gitblog]
-toc: true
-author_profile: false
-sidebar:
-    nav: "docs"
 ---
 
 # 이미지 업로드 방법
