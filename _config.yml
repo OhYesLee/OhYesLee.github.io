@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "My world"
-  avatar           : "/Users/yuhojeong/Desktop/github/OhYesLee.github.io/assets/images/logo.png"
+  avatar           : "/assets/images/logo.png"
   bio              : "성욱이의 성장기록 블로그입니다."
   location         : "South Korea"
   email            : "otto920811@gmail.com"
