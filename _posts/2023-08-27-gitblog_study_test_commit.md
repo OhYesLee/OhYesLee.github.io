@@ -36,5 +36,4 @@ jekyll new my-awesome-site
 cd my-awesome-site
 bundle exec jekyll serve
 ```
-
-test
+- **정상 반영됨 확인**
