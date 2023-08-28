@@ -281,4 +281,4 @@ defaults:
       toc_label: 목차
       toc_icon: "fa-solid fa-crown"
 
-data_format: "%Y-%m-%d"
+data_format: "%Y/%m-%d"
