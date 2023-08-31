@@ -1,0 +1,25 @@
+<!-- 전체 글 수를 세기 위한 연산. sum 변수에 전체 글 수 저장 -->
+{% assign sum = site.posts | size %}
+
+<nav class="nav__list">
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label }}</label>
+  <ul class="nav__items" id="category_tag_menu">
+    <!-- 전체 글 수 -->
+    <li>
+        📂 <span style="font-family:'Cafe24Oneprettynight';">전체 글 수</span> <span style="font-family:'Coming Soon';">{{ sum }}</span> <span style="font-family:'Cafe24Oneprettynight';">개</span> 
+    </li>
+    <li>
+        <!-- 카테고리를 'Jekyll 블로그 만들기'로 변경 -->
+        <span class="nav__sub-title">Jekyll 블로그 만들기</span>
+        <ul>
+            <!-- 'jekyll' 카테고리의 글 수와 링크를 나열 -->
+            {% for category in site.categories %}
+                {% if category[0] == "jekyll" %}
+                    <li><a href="{{ site.baseurl }}/categories/jekyll" class="">Jekyll 블로그 만들기 ({{ category[1].size }})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </li>
+  </ul>
+</nav>
