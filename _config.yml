@@ -280,5 +280,6 @@ defaults:
       toc_sticky: true
       toc_label: 목차
       toc_icon: "fa-solid fa-crown"
+      sidebar_main: true
 
 date_format: "%Y-%m-%d"
