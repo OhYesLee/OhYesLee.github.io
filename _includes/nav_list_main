@@ -20,6 +20,23 @@
                 {% endif %}
             {% endfor %}
         </ul>
+         <!-- 카테고리를 'Markdown'으로 변경 -->
+        <span class="nav__sub-title">Markdown</span>
+        <ul>
+            <!-- 'jekyll' 카테고리의 글 수와 링크를 나열 -->
+            {% for category in site.categories %}
+                {% if category[0] == "Markdown" %}
+                    <li><a href="{{ site.baseurl }}/categories/Markdown" class="">Markdown 문법 ({{ category[1].size }})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </li>
+    <li>	
+        <br>      
+        <div style="width: 70%; overflow: hidden;">
+            <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fohyeslee.github.io&count_bg=%234fa276&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=visitors&edge_flat=false" style="width: 100%; transform: scaleY(0.8);">
+        </div>
+
     </li>
   </ul>
 </nav>
