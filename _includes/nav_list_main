@@ -30,6 +30,16 @@
                 {% endif %}
             {% endfor %}
         </ul>
+        <!-- 카테고리를 'Today'으로 변경 -->
+        <span class="nav__sub-title">Today</span>
+        <ul>
+            <!-- 'Today' 카테고리의 글 수와 링크를 나열 -->
+            {% for category in site.categories %}
+                {% if category[0] == "Today" %}
+                    <li><a href="{{ site.baseurl }}/categories/Today" class="">Today ({{ category[1].size }})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
     </li>
     <li>	
         <br>      
