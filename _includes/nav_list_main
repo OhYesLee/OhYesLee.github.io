@@ -40,6 +40,16 @@
                 {% endif %}
             {% endfor %}
         </ul>
+        <!-- 카테고리를 'Project'으로 변경 -->
+        <span class="nav__sub-title">Project</span>
+        <ul>
+            <!-- 'Project' 카테고리의 글 수와 링크를 나열 -->
+            {% for category in site.categories %}
+                {% if category[0] == "Project" %}
+                    <li><a href="{{ site.baseurl }}/categories/Project" class="">Project ({{ category[1].size }})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
     </li>
     <li>	
         <br>      
