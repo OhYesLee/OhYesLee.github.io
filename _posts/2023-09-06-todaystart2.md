@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "9월 6일 하루를 시작하며"
+title:  "9월 6일 하루를 시작하며_2"
 categories: [blog, Today, Start]
 tag: [blog, today, start]
 author_profile: false
@@ -28,12 +28,6 @@ use_math: true
 ## 3. ***13:30 ~ 18:00*** 오후 소스분석
 - 
 
-<br>
-
-    단순하게 생각하자    
-    눈앞에 있는 코드를 분석하고     
-    이해하다보면    
-    눈에 보이는 세상이 컬러로 바뀔 것이다.
 
 
 ***
