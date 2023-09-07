@@ -173,3 +173,45 @@ $global-transition: all 0.2s ease-in-out !default;
 $intro-transition: intro 0.3s both !default;
 
 $toc-color: #204d35 !default;
+
+
+// $checkbox-scale: 2 !default;
+// $checkbox-checked-color: blue !default;
+
+// .custom-checkbox {
+//     transform: scale($checkbox-scale);
+//     -webkit-transform: scale($checkbox-scale); /* Safari and Chrome */
+// }
+
+// // .custom-checkbox:checked:before {
+// //     content: "";
+// //     background-color: $checkbox-checked-color;
+// //     border: solid $checkbox-checked-color;
+// // }
+
+
+// $checkbox-scale: 1 !default;
+// $checkbox-checked-color: blue !default;
+
+// .checkbox-wrapper {
+//     display: flex;
+//     justify-content: space-between;
+//     width: 35%;  // 이 값을 조절하여 두 체크박스 사이의 거리를 변경할 수 있습니다.
+
+//     label {
+//         display: flex;
+//         align-items: center;
+//     }
+// }
+
+// .custom-checkbox {
+//     transform: scale($checkbox-scale);
+//     -webkit-transform: scale($checkbox-scale); // Safari와 Chrome용
+//    //  margin-top: 100px; // 체크박스와 텍스트 사이의 간격 조절
+// }
+
+
+.checkbox-inline {
+   display: flex;
+   gap: 50px;
+}

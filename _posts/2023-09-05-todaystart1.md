@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "9월 5일 하루를 시작하며"
+title:  "9월 5일 하루를 시작하며_1"
 categories: [blog, Today, Start]
 tag: [blog, today, start]
 author_profile: false
