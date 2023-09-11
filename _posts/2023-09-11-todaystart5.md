@@ -148,6 +148,7 @@ function updateCheckboxStatus() {
 
     언제나 나를 믿고 차근차근 매일 공부하며
     앞으로 나아가겠습니다.
+    그냥 하는거야!!
 
 <br>
 
