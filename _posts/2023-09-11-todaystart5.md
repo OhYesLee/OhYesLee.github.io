@@ -30,7 +30,7 @@ function updateCheckboxStatus() {
 <!-- <div id="checkbox-status"></div> -->
 
 ## 1. ***Don't get discouraged*** 
-123123
+123123123
 - 좌절하지 말아라
 - 진정한 자존감을 회복하기위한 첫 번째는 현실을 인지하는데 있다.
 - 지금 내가 처한 상황은 92년생 32살 이제 사회생활 시작이다.
